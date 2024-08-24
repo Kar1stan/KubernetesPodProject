@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-web
+  labels: 
+     env  : prod
+     app  : main
+     tier : frontend
+     owner: VladislavKarastan
+spec:
+  containers:
+    - name : container-nginx
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+    - name : container-apache
+      image: tomcat:8.5.38
+      ports:
+        - containerPort: 8080
