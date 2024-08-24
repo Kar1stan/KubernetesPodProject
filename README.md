@@ -30,6 +30,11 @@ To show detail of the pod,open the terminal and run:
 $ kubectl describe pods my-web
 ```
 To connect IP and open server locally,open the terminal and run:
+To nginx container:
 ```
 $ kubectl port-forward my-web 8888:80
+```
+To tomcat container:
+```
+$ kubectl port-forward my-web 8888:8080
 ```
