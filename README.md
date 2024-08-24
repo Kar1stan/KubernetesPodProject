@@ -1,6 +1,6 @@
 # KubernetesPodProject
 ***
-Simple kubernetes pod manifect creating nginx container. 
+Simple kubernetes pod manifect creating 2 containers - nginx and tomcat. 
 
 ## 💻 Pre-requisites
 
