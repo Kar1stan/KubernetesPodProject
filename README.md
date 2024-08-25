@@ -25,7 +25,7 @@ To delete pod,open the terminal and run:
 ```
 $ kubectl delete -f pod-myweb-v1.yaml
 ```
-To show detail of the pod,open the terminal and run:
+To show details of the pod,open the terminal and run:
 ```
 $ kubectl describe pods my-web
 ```
